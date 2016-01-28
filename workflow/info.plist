@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>whoopie-cushion</string>
+	<key>connections</key>
+	<dict>
+		<key>86512935-A970-4B6E-98D4-59F0EFF1A790</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0B689C14-CD2C-41FE-8754-AED87D895C5A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stagl</string>
+	<key>description</key>
+	<string>A port of Jacob Rath's magnum opus, the Whoopie Cushion dashboard widget. Breathtaking.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Whoopie!</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>oops</string>
+				<key>subtext</key>
+				<string>I swear it was the dog</string>
+				<key>text</key>
+				<string>Whoopie!</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>86512935-A970-4B6E-98D4-59F0EFF1A790</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/sh
+
+WORKFLOWPATH=`pwd`
+NUMBEROFPOOTS=15
+
+# randomize file number
+let "thepoot = $RANDOM % $NUMBEROFPOOTS +1"
+
+# build path to sound
+PATHTOPOOT="$WORKFLOWPATH/poots/$thepoot.wav"
+
+echo $PATHTOPOOT;
+
+# play the poot!
+afplay "$PATHTOPOOT"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0B689C14-CD2C-41FE-8754-AED87D895C5A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>To the dozen or so folks who are reading this, behold the penultimate artistic creation that is: the Whoopie Cushion widget. Please absorb a bit of its history. 
+
+I reached out to the developer of the original widget and asked if I could port this over to Alfred since I was finally ending the life of my dashboard. This was the only widget left that I hadn’t found a replacement for.
+
+You can find the original over at Jacob’s website: 
+http://www.jacobrath.com/download.html
+
+And without further adoodoo, for historical reference, here is the spark that lit the fire under my pants:
+
+———————————————————————————————
+
+Dearest Jacob,
+
+I write with great regret that I'm finally shutting down my OSX dashboard. Most things on it have been replaced with other applications which are rather easy to navigate to with things like Alfred or Spotlight.
+
+The last widget left on my dashboard was your glorious pootbag, the Whoopie Cushion Widget™. I was thinking that it would make for a great Alfred Workflow and was actually quite surprised when I found that there wasn't a replacement already. 
+
+So... 
+would you mind if I did a port of your widget over to Alfred? I'd, of course, give all mentions of your work in the notes and read-me's. 
+
+Thanks for giving me so many laughs over the years. :D
+
+— Stagl
+
+—————————————————————————————
+
+Hi Stagl,
+
+It brings me great joy that you enjoyed the Whoopee Cushion Widget so much. I would be more than honored for you to port the pootbag over to Alfred so that it may live on, and bring joy to others as it has us.
+
+Thank you for including me in the software notes and read-me’s. If you could send me a link when it’s finished I would love to install it.
+
+Happy Pooting!!!
+
+Jacob</string>
+	<key>uidata</key>
+	<dict>
+		<key>0B689C14-CD2C-41FE-8754-AED87D895C5A</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>86512935-A970-4B6E-98D4-59F0EFF1A790</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://www.staglicious.com</string>
+</dict>
+</plist>
