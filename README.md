@@ -1,7 +1,9 @@
 # alfred-whoopie
-A port of the infamous Whoopie Cushion OS X dashboard widget to an Alfred workflow
+### A port of the infamous Whoopie Cushion OS X dashboard widget to an Alfred workflow
 
 I'm not totally sure why I created a github repo for this; I'm just trying to fit in cuz all the cool kids are doing this.
+
+##Usage
 
 ![tha sauce](demo.png)
 
@@ -9,15 +11,15 @@ The only difference between how this behaves compared to the widget is that you 
 
 You can download the [workflow right here](Whoopie.alfredworkflow?raw=true).
 
----
+##History
 
-I reached out to the developer of the original widget and asked if I could port this over to Alfred since I was finally ending the life of my dashboard. This was the only widget left that I hadn't found a replacement for.
+I reached out to the developer of the [original widget](https://www.apple.com/downloads/dashboard/justforfun/whoopeecushionwidget.html) and asked if I could port this over to Alfred since I was finally ending the life of [my dashboard](lonely-dashboard.png). This was the only widget left that I hadn't found a replacement for.
 
 You can find the original over at [Jacob’s website](http://www.jacobrath.com/download.html).
 
 And now, without further adoodoo, for historical reference, here is the spark that lit the fire under my pants:
 
-———
+---
 
 Dearest Jacob,
 
@@ -32,7 +34,7 @@ Thanks for giving me so many laughs over the years. :D
 
 — Stagl
 
-—————————————————————————————
+---
 
 Hi Stagl,
 
