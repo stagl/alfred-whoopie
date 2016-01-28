@@ -7,7 +7,7 @@ I'm not totally sure why I created a github repo for this; I'm just trying to fi
 
 The only difference between how this behaves compared to the widget is that you don't click the adorable little pootbag, you just type the keyword "oops" instead. 
 
-You can download the [workflow right here](Whoopie.alfredworkflow).
+You can download the [workflow right here](Whoopie.alfredworkflow?raw=true).
 
 ---
 
@@ -17,7 +17,7 @@ You can find the original over at [Jacob’s website](http://www.jacobrath.com/d
 
 And now, without further adoodoo, for historical reference, here is the spark that lit the fire under my pants:
 
-———————————————————————————————
+———
 
 Dearest Jacob,
 
