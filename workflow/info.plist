@@ -31,27 +31,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>oops</string>
-				<key>subtext</key>
-				<string>I swear it was the dog</string>
-				<key>text</key>
-				<string>Whoopie!</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>86512935-A970-4B6E-98D4-59F0EFF1A790</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -68,8 +47,6 @@ let "thepoot = $RANDOM % $NUMBEROFPOOTS +1"
 # build path to sound
 PATHTOPOOT="$WORKFLOWPATH/poots/$thepoot.wav"
 
-echo $PATHTOPOOT;
-
 # play the poot!
 afplay "$PATHTOPOOT"</string>
 				<key>type</key>
@@ -79,6 +56,27 @@ afplay "$PATHTOPOOT"</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>0B689C14-CD2C-41FE-8754-AED87D895C5A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>oops</string>
+				<key>subtext</key>
+				<string>I swear it was the dog</string>
+				<key>text</key>
+				<string>Whoopie!</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>86512935-A970-4B6E-98D4-59F0EFF1A790</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
